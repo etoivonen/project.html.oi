@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Магазин электрогитар</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" id="logo" alt="магазин электрогитар"></a>
+            <h1>Магазин электрогитар &laquo;V4K&nbsp;Guitars&raquo;</h1>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <p><a href="index.html">Главная</a> /</p>
+                <h2>Контакты</h2>
+                <hr>
+                <section class="form">
+                    <h3>Напишите нам!</h3>
+                    <form>
+                        <label>
+                            Имя
+                            <input type="text" name="name" id="name" placeholder="Иван">
+                        </label>
+                        <label>
+                            Фамилия
+                            <input type="text" name="surname" id="surname" placeholder="Иванов">
+                        </label>
+                        <label>
+                            E-mail
+                            <input type="email" name="email" id="email" placeholder="example@mail.ru">
+                        </label>
+                        <label>
+                            Тема
+                            <input type="text" name="theme" id="theme" placeholder="Тема обращения">
+                        </label>
+                        <label>
+                            Ваше сообщение
+                            <textarea id="message" placeholder="Оставьте Ваше сообщение..."></textarea>
+                        </label>
+                        <button type="submit" name="submit" id="submit">Отправить</button>
+                    </form>
+                </section>
+                <hr>
+                <section class="address">
+                    <h3>Адрес</h3>
+                    <p><strong>Контактный телефон:</strong> +7 (999)-666-14-88</p>
+                    <p><strong>Адрес:</strong> г. Зеленоград, ул. Логвиненко, д. 5</p>
+                    <div id="map">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4c2f859808b0a83de95113e0e807c72f3ecade5711d5c5cc6a15361e6a16cb64&amp;width=800&amp;height=375&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                    <p><strong>Ближайшее метро:</strong> в Зеленограде нет метро (и походу никогда не будет)</p>
+                    <p><strong>Как нас найти?</strong> На самом деле никак, такого дома нет :)</p>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <hr>
+        <p>&copy; Все права защищены</p>
+    </footer>
+</body>
+</html>
